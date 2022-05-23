@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="じゃんけん"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ImageButton
+        android:id="@+id/gu"
+        android:layout_width="133dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="140dp"
+        android:adjustViewBounds="true"
+
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@+id/choki"
+        app:layout_constraintTop_toTopOf="@+id/choki"
+        app:srcCompat="@drawable/gu"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/pa"
+        android:layout_width="133dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="424dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/choki"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pa"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/choki"
+        android:layout_width="133dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="4dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/pa"
+        app:layout_constraintTop_toTopOf="@+id/pa"
+        app:srcCompat="@drawable/choki"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
