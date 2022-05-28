@@ -30,7 +30,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/gu" />
+        app:srcCompat="@drawable/gu2" />
 
     <ImageView
         android:id="@+id/comhand"
@@ -48,7 +48,7 @@
         app:layout_constraintStart_toEndOf="@+id/button"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/gu" />
+        app:srcCompat="@drawable/gu2" />
 
     <Button
         android:id="@+id/button"

@@ -26,15 +26,15 @@ class ResultActivity : AppCompatActivity() {
 
         my_hand = when(id) {
             R.id.gu -> {
-                binding.comhand.setImageResource(R.drawable.gu)
+                binding.comhand.setImageResource(R.drawable.gu2)
                 gu
             }
             R.id.choki -> {
-                binding.myhand.setImageResource(R.drawable.choki)
+                binding.myhand.setImageResource(R.drawable.choki2)
                 choki
             }
             R.id.pa -> {
-                binding.myhand.setImageResource(R.drawable.pa)
+                binding.myhand.setImageResource(R.drawable.pa2)
                 pa
             }
             else -> gu
@@ -46,11 +46,11 @@ class ResultActivity : AppCompatActivity() {
 
 
         when(com_hand){
-            gu -> binding.comhand.setImageResource(R.drawable.gu)
+            gu -> binding.comhand.setImageResource(R.drawable.gu2)
 
-            choki ->binding.comhand.setImageResource(R.drawable.choki)
+            choki ->binding.comhand.setImageResource(R.drawable.choki2)
 
-            pa ->binding.comhand.setImageResource(R.drawable.pa)
+            pa ->binding.comhand.setImageResource(R.drawable.pa2)
 
         }
 
